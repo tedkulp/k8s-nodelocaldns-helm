@@ -1,0 +1,225 @@
+apiVersion: v1
+entries:
+  node-local-dns:
+  - annotations:
+      artifacthub.io/changes: |
+        - Initial helm chart changelog
+        - Update node-cache version, add support for better granular logging.
+    apiVersion: v2
+    appVersion: 1.22.9
+    created: "2023-06-28T08:50:07.801225188Z"
+    description: NodeLocal DNS Cache helm chart
+    digest: 11908a92b29d7546a67ecc0ef783d5bcba839f19413f71947e9703861f560a02
+    home: https://github.com/lablabs/k8s-nodelocaldns-helm
+    keywords:
+    - node
+    - dns
+    - cache
+    - kubernetes
+    maintainers:
+    - name: martinhaus
+    - name: haad
+    name: node-local-dns
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns/nodelocaldns
+    type: application
+    urls:
+    - https://github.com/lablabs/k8s-nodelocaldns-helm/releases/download/node-local-dns-1.4.0/node-local-dns-1.4.0.tgz
+    version: 1.4.0
+  - annotations:
+      artifacthub.io/changes: |
+        - Initial helm chart changelog
+        - Update node-cache version, add support for better granular logging.
+    apiVersion: v2
+    appVersion: 1.22.9
+    created: "2023-06-28T08:51:15.620006197Z"
+    description: NodeLocal DNS Cache helm chart
+    digest: fb3c5ac682f019994efb2358335ce622ee911b29a8723e07c164586836202dd4
+    home: https://github.com/lablabs/k8s-nodelocaldns-helm
+    keywords:
+    - node
+    - dns
+    - cache
+    - kubernetes
+    maintainers:
+    - name: martinhaus
+    - name: haad
+    name: node-local-dns
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns/nodelocaldns
+    type: application
+    urls:
+    - https://github.com/lablabs/k8s-nodelocaldns-helm/releases/download/node-local-dns-1.4.0-rc.1/node-local-dns-1.4.0-rc.1.tgz
+    version: 1.4.0-rc.1
+  - annotations:
+      artifacthub.io/changes: |
+        - Initial helm chart changelog
+        - Update node-cache version, add support for better granular logging.
+    apiVersion: v2
+    appVersion: 1.22.9
+    created: "2023-06-28T09:46:38.882927022Z"
+    description: NodeLocal DNS Cache helm chart
+    digest: 75b8cc09700fefe88ffa75cc2c0599d786579eeaf97888e0e0fec687c422c9c1
+    home: https://github.com/lablabs/k8s-nodelocaldns-helm
+    keywords:
+    - node
+    - dns
+    - cache
+    - kubernetes
+    maintainers:
+    - name: martinhaus
+    - name: haad
+    name: node-local-dns
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns/nodelocaldns
+    type: application
+    urls:
+    - https://github.com/lablabs/k8s-nodelocaldns-helm/releases/download/node-local-dns-1.4.0-rc.1/node-local-dns-1.4.0-rc.1.tgz
+    version: 1.4.0-rc.1
+  - annotations:
+      artifacthub.io/changes: |
+        - Initial helm chart changelog
+        - Update node-cache version, add support for better granular logging.
+    apiVersion: v2
+    appVersion: 1.22.9
+    created: "2023-07-26T08:50:30.14418056Z"
+    description: NodeLocal DNS Cache helm chart
+    digest: 55f9780322f7656a432d1ac145abd9445c42916afd4e08dd5bc5f313cfba6d9f
+    home: https://github.com/lablabs/k8s-nodelocaldns-helm
+    keywords:
+    - node
+    - dns
+    - cache
+    - kubernetes
+    maintainers:
+    - name: martinhaus
+    - name: haad
+    name: node-local-dns
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns/nodelocaldns
+    type: application
+    urls:
+    - https://github.com/lablabs/k8s-nodelocaldns-helm/releases/download/node-local-dns-1.4.0-rc.1/node-local-dns-1.4.0-rc.1.tgz
+    version: 1.4.0-rc.1
+  - annotations:
+      artifacthub.io/changes: |-
+        - Initial helm chart changelog
+        - Update node-cache version, add support for better granular logging.
+    apiVersion: v2
+    appVersion: 1.17.4
+    created: "2021-06-16T11:58:14.162021656Z"
+    description: NodeLocal DNS Cache helm chart
+    digest: c9c938ad042574a813ac9b3dbe2fae6feb3fb640a29c0d482ee281317db8ef2a
+    home: https://github.com/lablabs/k8s-nodelocaldns-helm
+    keywords:
+    - node
+    - dns
+    - cache
+    - kubernetes
+    maintainers:
+    - name: martinhaus
+    - name: haad
+    name: node-local-dns
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns/nodelocaldns
+    type: application
+    urls:
+    - https://github.com/lablabs/k8s-nodelocaldns-helm/releases/download/node-local-dns-1.3.2/node-local-dns-1.3.2.tgz
+    version: 1.3.2
+  - annotations:
+      artifacthub.io/changes: |-
+        - Initial helm chart changelog
+        - Update node-cache version, add support for better granular logging.
+    apiVersion: v2
+    appVersion: 1.17.4
+    created: "2021-06-02T13:01:20.768355954Z"
+    description: NodeLocal DNS Cache helm chart
+    digest: 54b532e4b4129fc14fd54c106069d3ff647e0101f4222d73cd20f370155b5f47
+    home: https://github.com/lablabs/k8s-nodelocaldns-helm
+    keywords:
+    - node
+    - dns
+    - cache
+    - kubernetes
+    maintainers:
+    - name: martinhaus
+    - name: haad
+    name: node-local-dns
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns/nodelocaldns
+    type: application
+    urls:
+    - https://github.com/lablabs/k8s-nodelocaldns-helm/releases/download/node-local-dns-1.3.1/node-local-dns-1.3.1.tgz
+    version: 1.3.1
+  - annotations:
+      artifacthub.io/changes: |-
+        - Initial helm chart changelog
+        - Update node-cache version, add support for better granular logging.
+    apiVersion: v2
+    appVersion: 1.17.4
+    created: "2021-06-02T11:34:38.381744901Z"
+    description: NodeLocal DNS Cache helm chart
+    digest: 0ecee39b9a482f422cf30033a3228838c044f779e1e3361d52618d73f48f9e64
+    home: https://github.com/lablabs/k8s-nodelocaldns-helm
+    keywords:
+    - node
+    - dns
+    - cache
+    - kubernetes
+    maintainers:
+    - name: martinhaus
+    - name: haad
+    name: node-local-dns
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns/nodelocaldns
+    type: application
+    urls:
+    - https://github.com/lablabs/k8s-nodelocaldns-helm/releases/download/node-local-dns-1.3.0/node-local-dns-1.3.0.tgz
+    version: 1.3.0
+  - annotations:
+      artifacthub.io/changes: '- Initial helm chart changelog'
+    apiVersion: v2
+    appVersion: 1.15.13
+    created: "2020-12-02T13:13:39.008620529Z"
+    description: NodeLocal DNS Cache helm chart
+    digest: e770bd30c91cd61420b86085a7ac21a7c3fcf9ea583c3b90f87abac32ae91e3c
+    home: https://github.com/lablabs/k8s-nodelocaldns-helm
+    keywords:
+    - node
+    - dns
+    - cache
+    - kubernetes
+    maintainers:
+    - name: martinhaus
+    - name: haad
+    name: node-local-dns
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns/nodelocaldns
+    type: application
+    urls:
+    - https://github.com/lablabs/k8s-nodelocaldns-helm/releases/download/node-local-dns-1.2.0/node-local-dns-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      artifacthub.io/changes: '- Initial helm chart changelog'
+    apiVersion: v2
+    appVersion: 1.15.13
+    created: "2020-11-06T15:52:52.462258374Z"
+    description: NodeLocal DNS Cache helm chart
+    digest: 5c65ca103dd0cf2080f72afcee8a6ed6a873224d3842dcdbbe2adffd89df72a2
+    home: https://github.com/lablabs/k8s-nodelocaldns-helm
+    keywords:
+    - node
+    - dns
+    - cache
+    - kubernetes
+    maintainers:
+    - name: martinhaus
+    - name: haad
+    name: node-local-dns
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns/nodelocaldns
+    type: application
+    urls:
+    - https://github.com/lablabs/k8s-nodelocaldns-helm/releases/download/node-local-dns-1.1.0/node-local-dns-1.1.0.tgz
+    version: 1.1.0
+generated: "2023-07-26T08:50:30.144308463Z"
