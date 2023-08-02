@@ -42,7 +42,7 @@ data:
       debug
       {{- end }}
       loop
-      bind 169.254.20.10 {{ $localDnsIp }}
+      bind 0.0.0.0
       forward . {{ $v.plugins.forward.parameters }} {
       {{- if $v.plugins.forward.policy }}
         policy {{ $v.plugins.forward.policy }}
