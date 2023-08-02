@@ -37,7 +37,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           args:
             - -localip
-            - "{{ .Values.config.localDnsIp }}"
+            - "169.254.20.10,{{ .Values.config.localDnsIp }}"
             {{- if .Values.image.args.skipTeardown }}
             - -skipteardown
             {{- end }}
@@ -77,7 +77,7 @@ spec:
             {{- toYaml .Values.securityContext | nindent 12 }}
           livenessProbe:
             httpGet:
-              host: {{ .Values.config.localDnsIp }}
+              host: 169.254.20.10
               path: /health
               port: {{ default "8080" .Values.image.args.healthPort }}
             initialDelaySeconds: 60
