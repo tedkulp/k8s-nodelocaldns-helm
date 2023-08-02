@@ -3,6 +3,6 @@
 ## Helm Chart Repository
 
 ```
-helm repo add node-local-dns https://lablabs.github.io/k8s-nodelocaldns-helm/
+helm repo add node-local-dns https://tedkulp.github.io/k8s-nodelocaldns-helm/
 helm install node-local-dns/node-local-dns
 ```
