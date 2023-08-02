@@ -33,7 +33,7 @@ The following table lists the configurable parameters of the Node-local-dns char
 | `image.args.setupEbtables` | `false` |
 | `image.args.quiet` | `false` |
 | `imagePullSecrets` |  | `[]` |
-| `config.localDnsIp` |  | `"169.254.20.11"` |
+| `config.localDnsIp` |  | `"172.20.0.10"` |
 | `config.zones` |  | `[{".:53":{"plugins":{"errors":true,"reload":true,"debug":false,"log":{"format":"combined","classes":"all"},"cache":{"parameters":30,"denial":{},"success":{},"prefetch":{},"serve_stale":false},"forward":{"parameters":"__PILLAR__UPSTREAM__SERVERS__","force_tcp":false,"prefer_udp":false,"policy":"","max_fails":"","expire":"","health_check":"","except":""},"prometheus":true,"health":{"port":8080}}}},{"ip6.arpa:53":{"plugins":{"errors":true,"reload":true,"debug":false,"log":{"format":"combined","classes":"all"},"cache":{"parameters":30},"forward":{"parameters":"__PILLAR__UPSTREAM__SERVERS__","force_tcp":false},"prometheus":true,"health":{"port":8080}}}},{"in-addr.arpa:53":{"plugins":{"errors":true,"reload":true,"debug":false,"log":{"format":"combined","classes":"all"},"cache":{"parameters":30},"forward":{"parameters":"__PILLAR__UPSTREAM__SERVERS__","force_tcp":false},"prometheus":true,"health":{"port":8080}}}}]` |
 | `useHostNetwork` |  | `true` |
 | `updateStrategy.rollingUpdate.maxUnavailable` |  | `"10%"` |
@@ -57,7 +57,7 @@ The following table lists the configurable parameters of the Node-local-dns char
 
 ```yaml
 config:
-  localDnsIp: 169.254.20.11
+  localDnsIp: 172.20.0.10
   zones:
     - .:53:
         plugins:
